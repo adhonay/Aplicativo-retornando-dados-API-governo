@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tp02-Lddm</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="texto_contratos">Contratos</string>
+    <string name="texto_contrato">Detalhes do contrato/Cronograma</string>
+
+
+    <string name="default_text_contrato_identificador_contrato">Identificador do contrato</string>
+    <string name="default_text_contrato_uasg">uasg</string>
+    <string name="default_text_contrato_cnpj">cnpj contratada</string>
+    <string name="default_text_contrato_contratante">Contratante</string>
+    <string name="default_text_contrato_modalidade_licitacao">Modalidade da Licitação</string>
+    <string name="default_text_contrato_numero_aviso_licitacao">Numero do Aviso da Licitação</string>
+    <string name="default_text_contrato_codigo_contrato">Código do Contrato</string>
+    <string name="default_text_contrato_licitacao_associada">Licitação Associada</string>
+    <string name="default_text_contrato_origem_licitacao">Origem da Licitação</string>
+    <string name="default_text_contrato_numero">Número</string>
+    <string name="default_text_contrato_objeto">Objeto</string>
+    <string name="default_text_contrato_numero_aditivos">Número de Aditivos</string>
+    <string name="default_text_contrato_numero_processo">Número do Processo</string>
+    <string name="default_text_contrato_fornecedor">Fornecedor</string>
+    <string name="default_text_contrato_data_assinatura">Data de assinatura</string>
+    <string name="default_text_contrato_fundamento_legal">Fundamento Legal</string>
+    <string name="default_text_contrato_data_inicio">Data de Início da Vigência</string>
+    <string name="default_text_contrato_data_termino">Data de Término da Vigência</string>
+    <string name="default_text_contrato_valor_inicial">Valor Inicial</string>
+
+    <string name="default_text_contrato_aditivos_contrato">Aditivos do Contrato</string>
+    <string name="default_text_contrato_apostilamentos_contrato">Apostilamentos do Contrato</string>
+    <string name="default_text_contrato_eventos_contrato">Eventos do Contrato</string>
+
+
+    <string-array name="codigo_contratos">
+        <item>50,contrato</item>
+        <item>51,credenciamento</item>
+        <item>52,comodato</item>
+        <item>53,arrendamento</item>
+        <item>54,concessão</item>
+        <item>55,termo aditivo</item>
+        <item>56,termo de adesão</item>
+        <item>57,convênio</item>
+        <item>60,termo de apostilamento</item>
+    </string-array>
+</resources>

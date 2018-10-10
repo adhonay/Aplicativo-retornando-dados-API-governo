@@ -1,0 +1,402 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ContratoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:divider="@drawable/ic_divisorlista"
+            android:showDividers="middle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_identificador_contrato"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_identificador_contrato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_identificador_contrato"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_uasg"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_uasg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_uasg"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_cnpj"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_cnpj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_cnpj"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_contratante"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_contratante"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_contratante"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_modalidade_licitacao"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_modalidade_licitacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_modalidade_licitacao"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_numero_aviso_licitacao"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_numero_aviso_licitacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_numero_aviso_licitacao"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_codigo_contrato"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_codigo_contrato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_codigo_contrato"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_licitacao_associada"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_licitacao_associada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_licitacao_associada"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_origem_licitacao"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_origem_licitacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_origem_licitacao"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_numero"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_numero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_objeto"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_objeto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_objeto"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_numero_aditivos"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_numero_aditivos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_numero_aditivos"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_numero_processo"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_numero_processo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_numero_processo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_data_assinatura"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_data_assinatura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_data_assinatura"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_fundamento_legal"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_fundamento_legal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_fundamento_legal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_data_inicio"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_data_inicio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_data_inicio"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <!-- TODO: Update blank fragment layout -->
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:text="@string/default_text_contrato_data_termino"/>
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@+id/fragment_contrato_data_termino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/default_text_contrato_data_termino"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
